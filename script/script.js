@@ -116,7 +116,7 @@
     //=== is used for comparing two variables, but this operator also checks datatype and compares two values
     //Strictly equal ===
 
-    
+
 // if(numNeighbours == 1){
 //   //input number is equal than 1 output is only one border
 //   console.log('Only one border'); 
@@ -148,4 +148,85 @@
 //   console.log(`${country} does not meet your criteria :()`);
 // }
 
+
+// const teamDolphins = [96, 108, 89];
+// const teamKoalas = [88, 91, 110];
+// let totalScore = 0;
+// for (let i = 0; i < teamDolphins.length; i++) {
+//   totalScore += teamDolphins[i];
+// }
+// console.log("Total Team Score is :", totalScore);
+
+// let teamDolphinsScore = teamDolphins;
+// console.log(teamDolphinsScore);
+// let teamScroes = ;
+// let averageScore = 100;
+
+// if(averageScore < )
+
+
+
+//coding challenge #3
+// There are two gymnastics teams, Dolphins and Koalas. They compete against each
+// other 3 times. The winner with the highest average score wins a trophy!
+
+// const dolphinsAverageGymnasticsScore = (80+80+100)/3;
+// const koalasAvarageGymnasticsScore = (180+90+110)/3;
+// console.log(dolphinsAverageGymnasticsScore, koalasAvarageGymnasticsScore);
+
+// if(dolphinsAverageGymnasticsScore > koalasAvarageGymnasticsScore && dolphinsAverageGymnasticsScore >= 100){
+//     console.log(`Dolphins(${dolphinsAverageGymnasticsScore.toFixed(0)}) wins tha match`);
+// }else if(dolphinsAverageGymnasticsScore < koalasAvarageGymnasticsScore && koalasAvarageGymnasticsScore >= 100){
+//     console.log(`Koalas(${dolphinsAverageGymnasticsScore.toFixed(0)}) wins tha match`);
+// }else if(dolphinsAverageGymnasticsScore === koalasAvarageGymnasticsScore && dolphinsAverageGymnasticsScore >= 100 & koalasAvarageGymnasticsScore >=100){
+//     console.log(`Draw the match`);
+// }else{
+//     console.log(`No teams win the trophy!`);
+// }
+
+
+// The switch Statement
+
+// const language = prompt("Enter your language");
+// switch(language){
+//     case "Chinese":
+//     case "Mandarin":
+//         console.log(`MOST number of native speakers!`);
+//         break;
+//     case "Spanish":
+//         console.log(`2nd place in the number of native speakers`);
+//         break;
+//     case "English":
+//         console.log(`3rd place in the number of native speakers`);
+//         break;
+//     case "Hindi":
+//         console.log(`4th place in the number of native speakers`);
+//         break;
+//     case "Arabic":
+//         console.log(`5th place in the number of native speakers`);
+//         break;
+//     default:
+//         console.log(`${language} is not top 5 list`);
+// }
+
+
+//The Conditional (Ternary) Operator
+
+// let country = "India";
+// let population = 35;
+
+// if( population > 13){
+//     console.log(`Portugal's population is above average'`);
+// }else{
+//     console.log(`Portugal's population is below average'`);
+// }
+
+//ternary operator
+
+// population > 33 ? console.log(`Portugal's population is above average'`) : console.log(`Portugal's population is below average'`);
+
+// console.log(
+//     `${country}'s population is ${population > 33 ? 'above' :
+//     'below'} average`,
+//     );
 

@@ -230,3 +230,24 @@
 //     'below'} average`,
 //     );
 
+//coding challenger #4
+
+// const bill = 200;
+// let tip = 0;
+
+// if(bill >= 50 && bill <= 300){
+//     console.log(bill * 0.15);
+// }else {
+//     console.log(bill * 0.2);
+// }
+
+// if(tip >=50 && tip <= 300){
+//     console.log(tip * 0.15);
+// }
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+
+
+
+// const bill1 = 200;
+// const tip1 = bill1 <= 300 && bill1 >= 50 ? bill1 * 0.15 : bill1 * 0.2;
+// console.log(`The bill was ${bill1}, the tip was ${tip1}, and the total value ${bill1 + tip1}`);

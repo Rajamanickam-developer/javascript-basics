@@ -251,3 +251,82 @@
 // const bill1 = 200;
 // const tip1 = bill1 <= 300 && bill1 >= 50 ? bill1 * 0.15 : bill1 * 0.2;
 // console.log(`The bill was ${bill1}, the tip was ${tip1}, and the total value ${bill1 + tip1}`);
+
+
+//Functions
+
+/*function describeCountry(country,population,capitalCity){
+    return `${country} has ${population} million people and its capital city is ${capitalCity}`
+}
+
+console.log(describeCountry("portugal",10,"Lisbon"));
+console.log(describeCountry("India",60,"New Delhi"));
+console.log(describeCountry("Japan",20,"Tokyo"));
+*/
+
+
+//Function Declarations vs. Expressions
+
+// function populationPercentage(population){
+//     return (population / 7900)* 100;
+// }
+// console.log(populationPercentage(2000));
+// console.log(populationPercentage(5000));
+// console.log(populationPercentage(7000));
+
+
+//Functions Calling Other Functions
+// Workout solution
+// function percentageOfWorld1(population){
+//     return (population / 7900) *100;
+// }
+// function percentageOfWorld2(country,population){
+//     return `${country} has ${population} million people, so it's about ${percentageOfWorld1(population).toFixed(0)}% of the world population`
+// }
+// console.log(percentageOfWorld2("India", 1000));
+// console.log(percentageOfWorld2("Japan", 600));
+// console.log(percentageOfWorld2("Portugal", 300));
+
+
+//Solution
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+//     }
+//     const percentageOfWorld2 = function (population) {
+//     return (population / 7900) * 100;
+//     };
+//     const percPortugal1 = percentageOfWorld1(10);
+//     const percChina1 = percentageOfWorld1(1441);
+//     const percUSA1 = percentageOfWorld1(332);
+//     console.log(percPortugal1, percChina1, percUSA1);
+
+//rough use
+// const worldPopulation = 7900;
+// const population = 7000;
+// console.log(percentageOfWorld1(population));
+
+// const percentageOfWorld2 = percentageOfWorld1;
+// console.log(percentageOfWorld1(7000,7900));
+// console.log(percentageOfWorld1(100));
+
+// const worldPopulation = 7900;
+// const population = 7000;
+// const percentage = (population / worldPopulation *100);
+
+// console.log(percentageOfWorld1("India",100,`${percentage.toFixed(0)}%`));
+
+
+// //Arrow Functions
+
+// const percentageOfWorld3 = (population) =>{
+//     return (population / 7900) *100;
+// }
+// const percentageOfWorld2 =(country,population)=>{
+//     return `${country} has ${population} million people, so it's about ${percentageOfWorld3(population).toFixed(0)}% of the world population`
+// }
+// console.log(percentageOfWorld2("India", 1000));
+// console.log(percentageOfWorld2("Japan", 600));
+// console.log(percentageOfWorld2("Portugal", 300));
+
+
+//Coding Challenge #5
